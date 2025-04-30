@@ -1,0 +1,28 @@
+.outline-black-button-container {
+  display: flex;
+  position: relative;
+}
+ 
+.outline-black-button-button {
+  color: var(--dl-color-secondary-700);
+  cursor: pointer;
+  outline: none;
+  font-size: 0.75rem;
+  min-width: 150px;
+  font-style: normal;
+  transition: 0.3s;
+  font-family: "Open Sans";
+  font-weight: 700;
+  line-height: 1.4;
+  padding-top: var(--dl-layout-space-triplequarterunit);
+  padding-left: var(--dl-layout-space-fourunits);
+  border-radius: var(--dl-layout-radius-radius75);
+  padding-right: var(--dl-layout-space-fourunits);
+  letter-spacing: -0.025rem;
+  padding-bottom: var(--dl-layout-space-triplequarterunit);
+  text-transform: uppercase;
+}
+ 
+.outline-black-button-button:hover {
+  transform: scale(1.02);
+}
