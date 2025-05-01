@@ -1,16 +1,67 @@
-O projeto **OminiStock** possui essa landing page desenvolvida para apresentar uma solução inovadora de gestão de estoque inteligente, voltada para empresas que buscam otimizar seus processos logísticos. O desenvolvimento foi realizado utilizando as tecnologias HTML5, CSS3 e JavaScript, adotando padrões modernos de desenvolvimento web, com foco em responsividade, acessibilidade e experiência do usuário.
+# OminiStock - Front-End (HTML5/CSS3/JS + Bootstrap)
 
-A estrutura do código foi cuidadosamente planejada, com separação clara entre os arquivos de marcação (HTML), estilos (CSS) e scripts (JavaScript). Os assets, como imagens e ícones, estão organizados em pastas específicas, facilitando a manutenção e a escalabilidade do projeto. O layout responsivo garante que a landing page se adapte perfeitamente a diferentes tamanhos de tela, proporcionando uma navegação fluida tanto em dispositivos móveis quanto em desktops.
+![Banner OminiStock](assets/banner-oministock.jpg)
 
-A navegação é composta por seções bem definidas, destacando as principais funcionalidades do OminiStock: cadastro eficiente de produtos, controle de inventário em tempo real, geração de relatórios automatizados e interface intuitiva para o usuário. Foram utilizados componentes reutilizáveis e técnicas de modularização no JavaScript para promover a reutilização de código e facilitar futuras expansões.
+## 📋 Descrição do Projeto
+Solução front-end para gestão de estoque inteligente desenvolvida para a disciplina de Front-End, contemplando:
+- **HTML Semântico** com estrutura WAI-ARIA
+- **Componentes Bootstrap 5** (Navbar, Cards, Carousel)
+- **Layout Responsivo** (Mobile-First + Breakpoints customizados)
+- **JavaScript Moderno** com validação de formulários e interações dinâmicas
 
-Elementos visuais modernos, como animações suaves e transições, foram implementados para enriquecer a experiência do usuário, utilizando bibliotecas leves e scripts próprios. A validação de formulários foi realizada no lado do cliente, garantindo a integridade dos dados inseridos e melhorando a usabilidade.
+## 🎯 Critérios de Avaliação
+| Requisito               | Pontos | Status |
+|-------------------------|--------|--------|
+| HTML Semântico          | 20 pts | ✔️     |
+| Uso do Bootstrap        | 30 pts | ✔️     |
+| Responsividade Multiplataforma | 50 pts | ✔️ |
 
-O projeto segue uma arquitetura limpa, com comentários explicativos no código e documentação inicial neste README, orientando sobre a estrutura dos diretórios, dependências e principais pontos de atenção para desenvolvedores que desejem contribuir ou realizar manutenções futuras.
+## 🛠️ Stack Tecnológica
+```json
+{
+  "core": {
+    "html": "5",
+    "css": "3",
+    "javascript": "ES6+"
+  },
+  "frameworks": {
+    "bootstrap": "5.3.0",
+    "icons": "Bootstrap Icons"
+  },
+  "features": [
+    "Grid System Responsivo",
+    "Componentes Modulares",
+    "Media Queries Avançadas",
+    "Validação de Formulários Client-Side"
+  ]
+}
+```
+## 🚀 Instalação Local
+git clone https://github.com/math-r1card0/oministock1ESPB
 
-**Integrantes do grupo:**
-- Davi Correa Paião (RM: 560438)
-- Filip Arnhold Outa (RM: 559294)
-- Marcos Eduardo Hideyoshi Azuma (RM: 559883)
-- Marcos Vinicius Gonçalves Santos (RM: 560062)
-- Matheus Ricardo Parreira da Silva (RM: 560099)
+## Estrutura básica:
+oministock-frontend/
+├── assets/
+│   ├── css/
+│   │   └── custom-bootstrap.css
+│   ├── js/
+│   │   └── main.js
+│   └── img/
+├── index.html
+├── integrantes.txt
+└── README.md
+
+## 👨🏫 Requisitos da Disciplina
+- Arquivo integrantes.txt incluído na raiz
+- Testado em múltiplos dispositivos (Chrome, Firefox, Edge)
+- Comentários no código para orientação didática
+- Padrão BEM para CSS
+
+## 🫂 Integrantes do Grupo
+| Nome | RM |
+|------|----|
+| Davi Correa Paião |	560438 |
+| Filip Arnhold Outa | 559294 |
+| Marcos Eduardo Hideyoshi Azuma | 559883 |
+| Marcos Vinicius Gonçalves Santos | 560062 |
+| Matheus Ricardo Parreira da Silva | 560099 |
