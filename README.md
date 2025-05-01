@@ -1,7 +1,5 @@
 # OminiStock - Front-End (HTML5/CSS3/JS + Bootstrap)
 
-![Banner OminiStock](assets/banner-oministock.jpg)
-
 ## 📋 Descrição do Projeto
 Solução front-end para gestão de estoque inteligente desenvolvida para a disciplina de Front-End, contemplando:
 - **HTML Semântico** com estrutura WAI-ARIA
