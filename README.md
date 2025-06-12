@@ -7,13 +7,6 @@ Solução front-end para gestão de estoque inteligente desenvolvida para a disc
 - **Layout Responsivo** (Mobile-First + Breakpoints customizados)
 - **JavaScript Moderno** com validação de formulários e interações dinâmicas
 
-## 🎯 Critérios de Avaliação
-| Requisito               | Pontos | Status |
-|-------------------------|--------|--------|
-| HTML Semântico          | 20 pts | ✔️     |
-| Uso do Bootstrap        | 30 pts | ✔️     |
-| Responsividade Multiplataforma | 50 pts | ✔️ |
-
 ## 🛠️ Stack Tecnológica
 ```json
 {
@@ -36,18 +29,6 @@ Solução front-end para gestão de estoque inteligente desenvolvida para a disc
 ```
 ## 🚀 Instalação Local
 git clone https://github.com/math-r1card0/oministock1ESPB
-
-## Estrutura básica:
-oministock-frontend/
-├── assets/
-│   ├── css/
-│   │   └── custom-bootstrap.css
-│   ├── js/
-│   │   └── main.js
-│   └── img/
-├── index.html
-├── integrantes.txt
-└── README.md
 
 ## 👨🏫 Requisitos da Disciplina
 - Arquivo integrantes.txt incluído na raiz
